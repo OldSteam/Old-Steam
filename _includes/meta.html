@@ -6,11 +6,15 @@
 	<link rel="canonical" href="http://www.oldsteam.com/"/>
 		
 	<meta name="distribution" content="global"/>
-	<meta name="keywords" content="Old Steam, Banda de swing, Barcelona, swing, jazz, blues, versions, clasics, contractar banda de jazz, músics per bodes, música festes majors, música retro, música vintage"/>
+	<meta name="keywords" content="Old Steam, {% for tag in page.tags %} {{ tag }}, {% endfor %} Banda de swing, Barcelona, swing, jazz, blues, versions, clasics, contractar banda de jazz, músics per bodes, música festes majors, música retro, música vintage"/>
 	<meta name="description" content="{{ site.description }} | Web Oficial de Old Steam 2017 - JAZZ - BLUES - SWING - VINTAGE - RETRO" />
-
+	<meta name="robots" content="index, follow" />
+    <meta name="author" content="Old Steam Band" />
+    <meta name='designer' content='Isard Miralles'>
+	<meta name="google-site-verification" content="ZejKpz5hQkDsyOH268ViY2SXtKbTSrkbu9J_TSupezM" />
+	
 	<!-- Metadata: GeoTags -->
-	<meta name="geo.region" content="ES-CT" />
+	<meta name="geo.region" content="Catalunya" />
 	<meta name="geo.placename" content="Barcelona" />
 	<meta name="geo.position" content="41.385064;2.173403" />
 	<meta name="ICBM" content="41.385064, 2.173403" />
@@ -28,3 +32,4 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
+
