@@ -9,7 +9,8 @@ year: 2017
 local: Miami Platja
 city: Hospitalet del infant
 price: Gratis
-img: "images/cartell/miamiplatja.jpg" 
+img: "images/cartell/miamiplatja.jpg"
+tags: [videos, concert, en directe, Miami Platja, Tarragona, Old Steam]
 comments: true
 excerpt_separator: <!--more-->
 

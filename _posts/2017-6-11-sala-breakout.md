@@ -5,6 +5,7 @@ post: default
 comments: true
 category: Video
 img: "assets/fotos/foto1.jpg"
+tags: [videos, concert, en directe, breakout, barcelona, Old Steam]
 excerpt_separator: <!--more-->
 ---
 
