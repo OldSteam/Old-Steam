@@ -25,7 +25,7 @@
 		
 	<meta name="distribution" content="global"/>
     {% if page.excerpt %}	
-	<meta name="keywords" content="{{ page.title }}, {{ page.local }}, {{ page.city }}, agenda, old steam, concert, live, " />
+	<meta name="keywords" content="{{ page.title }}, {{ page.local }}, {{ page.city }}, agenda, old steam, concert, live, Barcelona" />
 	{% else %}
 	<meta name="keywords" content="{{ site.tags }}" />
     {% endif %}
@@ -65,7 +65,11 @@
 	<meta property="og:site_name" content="http://www.oldsteam.com/" />
 	<meta property="article:published_time" content="{{ site.date }}" />
 	<meta property="article:modified_time" content="{{ page.date }}" />
+    {% if page.excerpt %}	
+	<meta property="article:tag" content="{{ page.title }}, {{ page.local }}, {{ page.city }}, agenda, old steam, concert, live, Barcelona" />
+	{% else %}
 	<meta property="article:tag" content="{{ site.tags }}" />
+    {% endif %}
 	<meta property="fb:admins" content="oldsteambcn" />
 	    {% else %}
 	<meta itemprop="name" content="Cover Page"/>
