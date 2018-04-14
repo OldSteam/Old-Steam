@@ -24,7 +24,11 @@
 	{% endif %}
 		
 	<meta name="distribution" content="global"/>
+    {% if page.excerpt %}	
+	<meta name="keywords" content="{{ page.title }}, {{ page.local }}, {{ page.city }}, agenda, old steam, concert, live, " />
+	{% else %}
 	<meta name="keywords" content="{{ site.tags }}" />
+    {% endif %}
 	<meta name="description" content="{{ site.description }}" />
 	<meta name="robots" content="index, follow" />
     <meta name="author" href="http://oldsteam.com" />
