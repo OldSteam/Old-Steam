@@ -12,7 +12,7 @@ reper2: El nostre repertori abarca desde els anys 20 fins a l'actualitat, un rep
 vox: Maria Baeta
 sax: Pep Cabrero
 guitar: Juanje Sánchez
-bass: Jose Borjas
+bass: Javier (Tigre)
 drums: Isard Miralles
 
 ---
