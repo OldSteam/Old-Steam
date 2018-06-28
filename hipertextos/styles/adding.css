@@ -27,7 +27,7 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
 p, ul {font-size: 18px;line-height: 27px;}
 main {padding-bottom:0!important;}
 #page-header.cover {background-image: url("/img/home.jpg");background-position: fixed;}
-#topcover.cover {background-color:#000;background-image: url("/img/home.jpg");height:100%;padding-top:69px;padding-bottom:69px;background-position: fixed;}
+#topcover.cover {background-color:#000;background-image: url("/img/promo.jpg");height:100%;padding-top:69px;padding-bottom:69px;background-position: fixed;}
 .text-left {text-align:left;}
 .text-right {text-align:right;}
 em hr {border-bottom:thin solid #eee;}	
