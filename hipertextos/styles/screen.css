@@ -10,6 +10,7 @@
 	-moz-box-sizing: border-box; 
 	box-sizing: border-box;
 }
+*:hover {cursor:auto !important;}
 *,
 *:hover,
 *:hover:before,
