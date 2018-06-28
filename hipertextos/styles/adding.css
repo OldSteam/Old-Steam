@@ -27,7 +27,7 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
 p, ul {font-size: 18px;line-height: 27px;}
 main {padding-bottom:0!important;}
 #page-header.cover {background-image: url("/img/home.jpg");background-position: fixed;}
-#topcover.cover {background-color:#000;background-image: url("/img/promo.jpg");height:100%;padding-top:69px;padding-bottom:69px;background-position: fixed;}
+#topcover.cover {background-color:#000;background-image: url("/img/promo.jpg");height:100%;padding-top:120px;padding-bottom:120px;background-position: fixed;}
 #topcover h2 {margin-bottom:10px;font-family: 'Voltaire';font-size:1.5em;line-height:1.2em;}
 #topcover h4 {font-size:1.0em;line-height:1.2em;letter-spacing: .06em;}
 #topcover em a {padding:14px 32px 14px 32px;border-radius:50px;background:transparent;font-size:18px;line-height:1em;letter-spacing: .1em;}
