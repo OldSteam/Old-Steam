@@ -27,6 +27,7 @@ body {text-align: justify;-moz-hyphens:none;-ms-hyphens:none;-webkit-hyphens:non
 p, ul {font-size: 18px;line-height: 27px;}
 main {padding-bottom:0!important;}
 #page-header.cover {background-image: url("/img/home.jpg");image-rendering: crisp-edges;background-position: fixed;}
+#topcover.cover {background-image: url("/img/home.jpg");image-rendering: crisp-edges;background-position: fixed;}
 .text-left {text-align:left;}
 .text-right {text-align:right;}
 em hr {border-bottom:thin solid #eee;}	
