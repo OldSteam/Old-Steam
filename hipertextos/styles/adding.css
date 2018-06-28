@@ -3,6 +3,7 @@
 #site-nav, nav, #page-header h1, #masters, #cover-links, #info-seo, .medias h3  {font-family: 'Voltaire';text-transform: uppercase; }
 #page-header h1 {background:none!important;}
 #page-header #pre-cover, #page-header #post-cover {display:inline-block; }
+#page-main {background-color:#111;}
 #post-cover img{transform: rotate(180deg);margin-top:-12px;}
 #cover-lines img{margin-top:-12px;}
 hr.lines {border:thin solid #fff;height:2px;width:33.33333%;margin-left:33.33333%;margin-top:2px;margin-bottom:8px;}
@@ -70,9 +71,10 @@ figure em a {border:none;border-bottom;line-height:0.2em;padding:12px 4px;}
 #go-down em a, #go-next em a {color:rgba(220,190,90,.69);background:transparent;border: transparent ;font-size: 80px;height: 80px;width: 80px;transform: rotate(90deg);border-radius: 50%;text-align: right;}
 #go-down em a:hover {text-decoration: none;color:var(--color-flink) ;border: transparent;text-align: right;}
 #go-next em a:hover {text-decoration: none;color:var(--color-hardgrey);border: transparent;text-align: right;}
-#covers {color: var(--color-grey);}
+#covers {color: #666;}
 #covers img {width: 13%;margin-bottom:1.2em; }
-#covers .train-icon {width: 60px;margin-bottom:.2em;opacity:.42; }
+#covers .train-icon {padding:2px;background-color:#333;border-radius:50%;
+    width: 69px;margin-bottom:.2em; }
 #covers article {border:0;}
 #page #covers article {}
 /* Dialog */
@@ -184,5 +186,6 @@ main { }
     #page-footer p {font-size:9px;letter-spacing: 0.01em;font-weight:lighter;}
     .youtube {	margin:0;padding-bottom: 12em;}
 }
+
 
 
