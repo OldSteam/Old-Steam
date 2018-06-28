@@ -3,7 +3,7 @@
 #site-nav, nav, #page-header h1, #masters, #cover-links, #info-seo, .medias h3  {font-family: 'Voltaire';text-transform: uppercase; }
 #page-header h1 {background:none!important;}
 #page-header #pre-cover, #page-header #post-cover {display:inline-block; }
-#page-main {background-color:#111;}
+.darkmode#page-main {background-color:#111;}
 #post-cover img{transform: rotate(180deg);margin-top:-12px;}
 #cover-lines img{margin-top:-12px;}
 hr.lines {border:thin solid #fff;height:2px;width:33.33333%;margin-left:33.33333%;margin-top:2px;margin-bottom:8px;}
