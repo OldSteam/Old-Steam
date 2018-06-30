@@ -11,6 +11,7 @@
 	box-sizing: border-box;
 }
 *:hover {cursor:auto !important;}
+label:hover {cursor:pointer!important;}
 *,
 *:hover,
 *:hover:before,
