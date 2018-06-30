@@ -27,7 +27,12 @@
 	{% include partials/navigation/nav-about.html %}
 		<header id="page-header" class="about-cover anm-moveFromTop delay-200">
 			<div>
-				<h1 class="anm-moveFromBottomFade delay-300">{{ page.title }} Band</h1>
+				<h1 class="anm-moveFromBottomFade delay-300">{{ page.title }}</h1>
+				<div id="contacto">
+					<em><a href="tel:+34{{ site.phone1 }}"><b>+34</b> {{ site.phone }}</a></em>
+					<em><a href="tel:+34{{ site.phone2 }}"><b>+34</b> {{ site.phone2 }}</a></em>
+					<em><a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a></em>
+				</div>
 			</div>
 		</header>
 		<nav id="page-nav" class="nav-scroll anm-fadeIn delay-600">
