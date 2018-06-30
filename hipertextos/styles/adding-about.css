@@ -28,15 +28,18 @@
 h3 { line-height:1.0em; }
 
 #repertori h5 em {color:var(--color-red);padding:6px;}
-#musics .cell-x2 {border: thin solid var(--color-soft);background:rgba(0,0,0,.6);border-radius:16px;}
-#musics .cell-x2 h6{background:rgba(255,255,255,.6);border-radius:15px 15px 0 0;}
-#musics .cell-x2 h5{color:var(--color-translucentwhite) ;border-radius:15px 15px 0 0;}
+#musics .cell-x5 {}
+#musics .cell-x5 h6{font-size:1.6em;line-height:2.1em;margin:0px;}
+#musics .cell-x5 h5{font-size:2.6em;margin-bottom:23px;}
 #musics .musics {width:120px;padding: 15px;}
 #repertori label, div.collapser div {border-color:var(--color-soft-grey);}
 .news {width:120px;float:left; margin-top:-6px; margin-right: 23px;margin-bottom:0;color: rgba(0,0,0,.32); }
 .nav-scroll a, .cell-x2 img { -webkit-filter: grayscale(50%);filter: grayscale(50%);}
 .nav-scroll a:hover, .cell-x2 img:hover { -webkit-filter: grayscale(0%);filter: grayscale(0%);text-decoration:none;}
 #musics .cell-x2:hover {background-color:rgba(0,0,0,.42);}
+
+#down-info p {text-align:left;margin-left:12px;}
+#down-avatar a {width:100%;border-radius:3px;}
 
 @media (max-width: 1250px) {
   	.cover-page #page-main ul {-webkit-column-count: 2;-moz-column-count: 2;column-count: 2;}
@@ -46,9 +49,7 @@ h3 { line-height:1.0em; }
 }
 @media (max-width: 768px) {
     div .columns-2 {-webkit-column-count: 1;-moz-column-count: 1;column-count: 1;}
-    .cell-x2 {width:50%;}
-    .cell-x2 h6 {font-size: 16px;font-weight: lighter ;}
-    #musics .cell-x2 {width:50%;}
+    .cell-x5 h6 {font-size: 16px;font-weight: lighter ;}
     .thumb-x2 {width:32%;}
     .thumb-x8 {width:68%;}
     #down-avatar {width:35%;}
@@ -61,8 +62,7 @@ h3 { line-height:1.0em; }
 @media (max-width: 432px) {
     #down-avatar {width:100%;}
     #down-info  {width:100%;}
-    .cell-x2 {width:100%;}
-    .cell-x2 h6 {font-size: 19px;font-weight: lighter ;}
+    .cell-x5 h6 {font-size: 19px;font-weight: lighter ;}
     #musics .cell-x2 {width:100%;}
     #musics .musics {width:75px;padding: 5px;}
     .thumb-x2, .thumb-x8 {width:100%;margin:0;}
