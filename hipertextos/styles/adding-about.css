@@ -28,10 +28,10 @@
 h3 { line-height:1.0em; }
 
 #repertori h5 em {color:var(--color-red);padding:6px;}
-#musics .cell-x5 {}
-#musics .cell-x5 h6{font-size:1.6em;line-height:2.1em;margin:0px;}
-#musics .cell-x5 h5{font-size:2.6em;margin-bottom:23px;}
-#musics .musics {width:120px;padding: 15px;}
+#musics .cell-x5 {padding-right:12px;}
+#musics .cell-x5 h6{font-size:1.6em;line-height:1em;margin:0px;}
+#musics .cell-x5 h5{font-size:2.3em;}
+#musics .musics {width:80px;padding: 6px;}
 #repertori label, div.collapser div {border-color:var(--color-soft-grey);}
 .news {width:120px;float:left; margin-top:-6px; margin-right: 23px;margin-bottom:0;color: rgba(0,0,0,.32); }
 .nav-scroll a, .cell-x2 img { -webkit-filter: grayscale(50%);filter: grayscale(50%);}
