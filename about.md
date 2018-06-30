@@ -3,8 +3,6 @@ layout: about
 title: Old Steam
 permalink: /about/
 som: Banda de swing, jazz y blues desde Barcelona
-musics: Una banda de luxe!
-musics2: Formació estable de músics professionals
 premsa: Zona de Premsa
 premsa2: Informació, disposició i requeriments tècnics.
 reper: Jazz, Swing & Blues
