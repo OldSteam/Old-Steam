@@ -12,7 +12,7 @@ avatar: http://{{ site.baseurl }}/hipertextos/brand/icon.jpg
 phone: 633101657
 phone2: 654108413
 
-contratacion: Llámanos o ponte en contacto a través de... 
+contratacion: Pots posar-te en contacte a través de... 
 
 # Includes an icon in the footer for each username you enter
 footer-links:

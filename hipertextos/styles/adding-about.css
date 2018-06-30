@@ -19,7 +19,7 @@
 #contacto em b {color:var(--color-hardgrey);}
 #info-about, .info {text-align:center;margin-bottom:23px;font-family: var(--font-brand);}
 #info-about a, #prensa a {text-decoration:none!important;}
-#info-about, #prensa {}
+.bio {font-size:1.1em;line-height:1.9em!important;}
 .info button { color:var(--color-soft);text-transform:uppercase;font-family: 'Voltaire'; font-size:28px;opacity:.69;
     background-color:transparent ;background-image: url(/hipertextos/brand/hexagonblack.png);background-repeat:no-repeat  ;background-size:100px;width:100px;height:100px;border:none!important;
 	padding-left:25px;padding-right:25px;}
