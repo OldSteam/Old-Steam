@@ -7,7 +7,11 @@
 .cover-page #page-main h5 {font-family: 'Voltaire';text-transform:uppercase;}
 .cover-page #page-main {color:var(--color-hardgrey);background-image: url("/img/texture/light.png");background-size:294px 235px;background-repeat: repeat;image-rendering: crisp-edges;}
 #som {}
-#musics {min-width:102%;margin-left:-2px!important;background:#111;}
+#musics {min-width:102%;margin-left:-2px!important;color:var(--color-softgrey);
+    background:#111;background-image: url("/img/aboutblack.jpg");	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;}
 #press {}
 #songs {}
 #contract-button {height:80px;padding-top:12px;border-top:2px solid rgba(220,220,220,.042);}
