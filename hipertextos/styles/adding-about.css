@@ -58,6 +58,8 @@ h3 { line-height:1.0em; }
     .cover-page ul li {font-size:14px;line-height:1.5em;margin-top:5px;padding:0;}
     #repertori h5 {font-size:23px;line-height:12px;letter-spacing: 0.003em;}
     .bio {font-size:1.2em;padding:3% 15% 0 15%;}
+    #press .thumb-6 {margin-left:20px;width:100%;}
+    #press em a {max-width:90%;border-radius:50px;margin-bottom:18px;}
 }
 @media (max-width: 768px) {
     div .columns-2 {-webkit-column-count: 1;-moz-column-count: 1;column-count: 1;}
@@ -71,6 +73,10 @@ h3 { line-height:1.0em; }
     #repertori h5 {font-size:18px;line-height:21px;letter-spacing: 0.03em;margin-bottom: 16px;border-bottom: thin solid var(--color-softgrey);}
     #repertori h5 strong {font-size:16px;}
     .bio {font-size:1.2em;padding:2% 7% 3% 7%;}
+    #press .thumb-6 {margin-left:0px;}
+    #musics .cell-x5 h6{font-size:1.1em;letter-spacing: 0.03em}
+	#musics .cell-x5 h5{font-size:1.5em;}
+    #musics {background-image: none;}
 }
 @media (max-width: 432px) {
     #down-avatar {width:100%;}
