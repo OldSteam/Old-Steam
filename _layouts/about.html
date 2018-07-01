@@ -39,8 +39,8 @@
 			</div>
 		</header>
 		<main id="page-main" class="anm-fadeIn delay-900 slow">
-			<div id="som">
 				<section id="info-about" class="anm-fadeIn delay-1000">
+			<div id="som">
 					<h2 id="info" class="anm-moveFromTopFade delay-1500"><u>{{ page.title }}</u></h2>
 					<h5 class="anm-fadeIn delay-1500 slow">{{ page.som }}</h5>
 					<div class="bio anm-moveFromBottomFade delay-1500">
@@ -93,6 +93,9 @@
 						<div>
 							<h5>{{ page.premsa }}</h5>
 							<p>{{ page.premsa2 }}</p>
+							<br>
+							<h6>{{ page.reper }}</h6>
+							<hr>
 							<div id="down-avatar" class="thumb-x2">
 								<img src="{{ site.baseurl }}/hipertextos/brand/icon.jpg" id="avatar" alt="Logotip de la banda Old Steam">
 								<em><a href="{{ site.baseurl }}/hipertextos/brand/logo.jpg">&darr; Logo</a></em>
@@ -114,10 +117,8 @@
 					<hr>
 			</div>
 			<div id="songs">
-					<h2 id="reper" class="anm-scaleUp delay-800"><u>Repertori</u></h2>
 					<div>
-						<h5>{{ page.reper }}</h5>
-						<p>{{ page.reper2 }}</p>
+						<h5>{{ page.reper2 }}</h5>
 					</div>						
 					
 					<div id="repertori" class="collapser">
@@ -156,10 +157,10 @@
 							<h5><strong>Sinister Swing</strong> <em>2010</em> <strong>Maria Baeta & Pep Cabrero</strong></h5>
 							<em><label for="a-2"><img src="{{ site.baseurl }}/hipertextos/svg/close.svg" class="close" alt="cerrar"> TANCAR</label></em>
 						</div>
-					</div>
-				</section>
-				<hr>									
+					</div>									
 			</div>
+				</section>
+				<hr>
 			{% include partials/credits.html %}
 		</main>
 		{% include partials/footer.html %}
