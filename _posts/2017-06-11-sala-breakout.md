@@ -4,7 +4,7 @@ title: En directe al Breakout
 post: default
 comments: true
 category: Video
-img: "assets/fotos/foto13.jpg"
+img: "images/cartell/breakout.jpg"
 excerpt_separator: <!--more-->
 ---
 
