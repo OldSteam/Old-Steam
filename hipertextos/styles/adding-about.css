@@ -38,8 +38,9 @@
 #download em i svg {font-size:.5em;}
 h3 { line-height:1.0em; }
 
-#repertori h5 em {color:var(--color-link);padding:6px;}
-#repertori h5 {display:inline-block;font-size:1.0em;}
+#repertori h5 em {color:var(--color-red);padding:6px;}
+#repertori h5 b {color:var(--color-link);padding:6px;font-size:1.1em;}
+#repertori h5 {display:inline-block;font-size:1.0em;line-height:1.0em;}
 #musics .cell-x5 {padding-right:12px;}
 #musics .cell-x5 h6{font-size:1.6em;line-height:1em;margin:0px;}
 #musics .cell-x5 h5{font-size:2.3em;}
