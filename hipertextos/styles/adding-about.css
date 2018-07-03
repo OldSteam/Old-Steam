@@ -13,7 +13,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;}
 #press {}
-#songs h5 {line-height:1.2em;}
+#songs h5 {line-height:1.5em;}
 #contract-button {height:80px;padding-top:12px;border-top:2px solid rgba(220,220,220,.042);}
 #contract-button label {background:transparent;font-size:1.4em;font-weight: lighter ;}
 #contract-button label:hover {color:var(--color-white);border-color:var(--color-white);}

@@ -2,7 +2,7 @@
 layout: about
 title: Old Steam
 permalink: /about/
-som: Banda de swing, jazz y blues desde Barcelona
+som: Banda de swing, jazz & blues desde Barcelona
 premsa: Zona de Premsa
 premsa2: Informació, disposició i requeriments tècnics.
 reper: Jazz, Swing & Blues
